@@ -3,7 +3,7 @@ Erases texture seams to prevent visible seams or tearing in displacement maps.
 
 ## Overview
 
-Seams of a textures often produce errors when bi-linearly interpolated. This
+Seams of textures often produce errors when bi-linearly interpolated. This
 results in a visible seam line or other undesired artifacts. The goal of this
 project is to devise a numerical solution to this problem by minimizing the
 energy/error between edge pairs.
